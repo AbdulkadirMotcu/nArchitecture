@@ -38,7 +38,6 @@ namespace Application.Features.Brands.Commands.CreateBrand
                 CreatedBrandDto createdBrandDto = _mapper.Map<CreatedBrandDto>(createdBrand);
 
                 return createdBrandDto;
-
             }
 
         }
